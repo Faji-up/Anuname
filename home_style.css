@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+header{
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+ 
+}
+img{
+    position:absolute;
+}
+
+.center-part{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    size: auto;
+    padding: 0%;
+    
+   
+
+}
+
+text{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+header .logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 100%;
+    vertical-align: top;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    margin-left: 10px;
+}
+.text h1{
+    transform: translate(0%, -100%);
+    font-size: 60px;
+}
+.button {
+    width: 20vh;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    
+  }
+  
+  .button{
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  }
